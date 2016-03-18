@@ -1,7 +1,7 @@
 var gulp  = require('gulp')
 var shell = require('gulp-shell')
 
-gulp.task('default',['connect','steroids-login','connect'], function() {
+gulp.task('default',['steroids-login','connect'], function() {
   // place code for your default task here
 });
 
